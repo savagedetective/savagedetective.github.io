@@ -15,6 +15,7 @@
     <script src="assets/javascript/app.js" defer></script>
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Source+Sans+Pro" rel="stylesheet">
+
 </head>
 
 <body>
@@ -27,11 +28,16 @@
 
                 <p>Hello, my name is</p>
                 <h1>Ritchie Garcia</h1>
-                <p>Web Developer | Sound Designer | Mediocre Present Wrapper (Seriously. Don't ask me for help with this.)</p>
+                <p>Web Developer | Sound Designer | Mediocre Present Wrapper (Seriously. Don't ask me for help with
+                    this.)</p>
 
                 <div id="buttons">
-                    <button class="button"><a class="actionLink" href=#about-me-page>About me</a></button>
-                    <button class="button"><a class="actionLink" href=#portfolio-page>Portfolio</a></button>
+                    <form action="#about-me-page">
+                        <button class="button" type="submit">About me</button>
+                    </form>
+                    <form action="#portfolio-page">
+                        <button class="button" type="submit">Portfolio</button>
+                    </form>
                 </div>
 
             </div>
@@ -48,9 +54,9 @@
 
             <div class="col-xs-6" id="right-nav">
                 <ul>
-                    <li><a class="actionLink" href=#about-me-page>About me</a></li>
-                    <li><a class="actionLink" href=#portfolio-page>Portfolio</a></li>
-                    <li><a class="actionLink" href=#contact-page>Contact me</a></li>
+                    <li><a href=#about-me-page>About me</a></li>
+                    <li><a href=#portfolio-page>Portfolio</a></li>
+                    <li><a href=#contact-page>Contact me</a></li>
                 </ul>
             </div>
 
@@ -111,13 +117,63 @@
 
         <div class="row text-center" id="portfolio-page">
 
+            <h2>Web Dev</h2>
+
+            <div class="col-xs-12" id="web-portfolio">
+
+                <div class="row">
+
+                    <div class="col-xs-4 web-dev-single">
+                        <img class="img-fluid" src="assets/images/train-scheduler2.png" alt="Train Scheduler">
+                        <h3>Train Scheduler</h3>
+                    </div>
+
+                    <div class="col-xs-4 web-dev-single">
+                        <img class="img-fluid" src="assets/images/urban-english.png" alt="Urban english">
+                        <h3>Urban English</h3>
+                    </div>
+
+                    <div class="col-xs-4 web-dev-single">
+                        <img class="img-fluid" src="assets/images/crystals-game.png" alt="Crystals Game">
+                        <h3>Crystals Game</h3>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-xs-2 web-dev-single">
+
+                    </div>
+
+                    <div class="col-xs-4 web-dev-single">
+                        <img class="img-fluid" src="assets/images/giphy-things2.png" alt="giphy things">
+                        <h3> Giphy Things</h3>
+                    </div>
+
+                    <div class="col-xs-4 web-dev-single">
+                        <img class="img-fluid" src="assets/images/trivia-game2.png" alt="Trivia Game">
+                        <h3> Trivia Game</h3>
+                    </div>
+
+                    <div class="col-xs-2 web-dev-single">
+
+                    </div>
+                    
+                </div>
+
+
+            </div>
+
             <h2>Audio, etc.</h2>
 
             <div class="col-xs-6" id="portfolio-left">
 
-                <iframe width="100%" height="auto" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/283853462&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                <iframe width="100%" height="auto" scrolling="no" frameborder="no"
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/283853462&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
                 <h3>Recording and Mixing</h3>
-                <p>I've been recording, mixing and producing for about as long as I can remember. Here you can find some examples of the projects I've taken on recently.</p>
+                <p>I've been recording, mixing and producing for about as long as I can remember. Here you can find some
+                    examples of the projects I've taken on recently.</p>
 
             </div>
 
@@ -125,8 +181,9 @@
 
                 <a href="http://www.jimbawang.com/"><img src="assets/images/Jimbawang.png" alt="Jimbawang"></a>
                 <h3>Sound Design and Composition</h3>
-                <p>Jimbawang is a game created by a friend of mine while we were both living in Seattle. I composed the title track, gameplay tracks and the game over track.</p>
-            
+                <p>Jimbawang is a game created by a friend of mine while we were both living in Seattle. I composed the
+                    title track, gameplay tracks and the game over track.</p>
+
             </div>
 
         </div>
@@ -141,7 +198,7 @@
 
             <div class="col-xs-6" id="contact-right">
                 <h2>Contact Me</h2>
-                <p>Interested in recording a song together, or need someone to compose for your film or game projects?
+                <p>Need a web page? Want to record?
                     Shoot me an email.</p>
                 <a href="mailto:ritchie.eg@gmail.com?Subject=Hello%20Ritchie" target="_top">ritchie.eg@gmail.com</a>
             </div>

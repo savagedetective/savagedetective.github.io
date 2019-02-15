@@ -15,6 +15,10 @@
     margin:10px;
 }
 
+#buttons form {
+	display:inline;
+}
+
 .button {
 	font-family: Oswald;
 	text-align: center;
@@ -136,6 +140,19 @@
 #portfolio-page {
     background-color: #99bbff;
     width:100%;
+}
+
+.web-dev-single {
+	margin:20px 0;
+}
+
+.web-dev-single img {
+	max-width: 100%;
+	height:auto;
+}
+
+.web-dev-single iframe {
+	z-index: 1001;
 }
 
 #portfolio-left iframe {
