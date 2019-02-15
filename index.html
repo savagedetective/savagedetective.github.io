@@ -1,14 +1,155 @@
-<DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Portfolio</title>
+    <title>Ritchie Garcia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!--My CSS and JS-->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="assets/javascript/app.js" defer></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Source+Sans+Pro" rel="stylesheet">
 </head>
+
 <body>
-    <p>Here is the first step of my portfolio</p>
+
+    <div class="container">
+
+        <div class="row text-center" id="splash-screen">
+
+            <div class="col-xs-12 spash-content">
+
+                <p>Hello, my name is</p>
+                <h1>Ritchie Garcia</h1>
+                <p>Web Developer | Sound Designer | Mediocre Present Wrapper (Seriously. Don't ask me for help with this.)</p>
+
+                <div id="buttons">
+                    <button class="button"><a class="actionLink" href=#about-me-page>About me</a></button>
+                    <button class="button"><a class="actionLink" href=#portfolio-page>Portfolio</a></button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="row" id="navigation-bar">
+
+            <div class="col-xs-6" id="left-nav">
+                <ul>
+                    <li>Ritchie Garcia</li>
+                </ul>
+            </div>
+
+            <div class="col-xs-6" id="right-nav">
+                <ul>
+                    <li><a class="actionLink" href=#about-me-page>About me</a></li>
+                    <li><a class="actionLink" href=#portfolio-page>Portfolio</a></li>
+                    <li><a class="actionLink" href=#contact-page>Contact me</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="row" id="about-me-page">
+
+            <div class="col-xs-12" id="about-text">
+                <h2>Getting to know me.</h2>
+                <p>I'm a long time sound designer. Recent web developer. Habitual drinker of gins and tonics. If
+                    you haven't heard from me recently I'm probably on top of a mountain. Or I accidentally drove
+                    halfway across the country. Or I accidentally drove half way across the country and ended up on
+                    top of a mountain. Hard to say.</p>
+            </div>
+
+            <div class="col-xs-3 leftList" id="left-about">
+
+                <ul>
+                    <li>
+                        <span class="bold-title">Name:</span>
+                        Ritchie Garcia
+                    </li>
+                    <li>
+                        <span class="bold-title">From:</span>
+                        Santa Barbara, CA
+                    </li>
+                    <li>
+                        <span class="bold-title">Whereabouts:</span>
+                        Unknown
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col-xs-6" id="center-about">
+                <img id="pic-of-me" src="assets/images/myself.jpg" alt="just me">
+            </div>
+
+            <div class="col-xs-3" id="right-about">
+
+                <ul>
+                    <li>
+                        <span class="bold-title">Hobbies:</span>
+                        music, hiking, climbing, roadtrips
+                    </li>
+                    <li>
+                        <span class="bold-title">Audio capability:</span>
+                        recording, mixing, design, composition
+                    </li>
+                    <li>
+                        <span class="bold-title">Web design:</span>
+                        HTML, CSS, Javascript
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="row text-center" id="portfolio-page">
+
+            <h2>Audio, etc.</h2>
+
+            <div class="col-xs-6" id="portfolio-left">
+
+                <iframe width="100%" height="auto" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/283853462&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                <h3>Recording and Mixing</h3>
+                <p>I've been recording, mixing and producing for about as long as I can remember. Here you can find some examples of the projects I've taken on recently.</p>
+
+            </div>
+
+            <div class="col-xs-6" id="portfolio-right">
+
+                <a href="http://www.jimbawang.com/"><img src="assets/images/Jimbawang.png" alt="Jimbawang"></a>
+                <h3>Sound Design and Composition</h3>
+                <p>Jimbawang is a game created by a friend of mine while we were both living in Seattle. I composed the title track, gameplay tracks and the game over track.</p>
+            
+            </div>
+
+        </div>
+
+        <div class="row text-center" id="contact-page">
+
+            <div class="col-xs-6" id="contact-left">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423283.33606892626!2d-118.69192195752501!3d34.02075044616237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos+Angeles%2C+CA!5e0!3m2!1sen!2sus!4v1474416520472"
+                    width="100%" height="auto" frameborder="0" style="border:0"></iframe>
+            </div>
+
+            <div class="col-xs-6" id="contact-right">
+                <h2>Contact Me</h2>
+                <p>Interested in recording a song together, or need someone to compose for your film or game projects?
+                    Shoot me an email.</p>
+                <a href="mailto:ritchie.eg@gmail.com?Subject=Hello%20Ritchie" target="_top">ritchie.eg@gmail.com</a>
+            </div>
+        </div>
+
+    </div>
+
+
 </body>
+
 </html>
